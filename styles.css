@@ -251,12 +251,13 @@ body {
 
 .drive-link {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     background-color: var(--secondary-color);
     color: var(--white);
     text-decoration: none;
     border-radius: 0.375rem;
     font-weight: 500;
+    font-size: 0.95rem;
     transition: background-color 0.3s ease;
     text-align: center;
 }
@@ -267,12 +268,13 @@ body {
 
 .video-link {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     background-color: #059669;
     color: var(--white);
     text-decoration: none;
     border-radius: 0.375rem;
     font-weight: 500;
+    font-size: 0.95rem;
     transition: background-color 0.3s ease;
     text-align: center;
 }
