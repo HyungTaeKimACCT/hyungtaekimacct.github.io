@@ -125,18 +125,30 @@ body {
     box-shadow: var(--shadow-lg);
 }
 
-.placeholder-image {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    color: var(--text-light);
-    border: 4px solid var(--white);
-    box-shadow: var(--shadow-lg);
+.hero-credentials {
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: var(--shadow);
+}
+
+.hero-credentials h3 {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.credentials-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.credentials-list li {
+    margin-bottom: 0.75rem;
+    color: var(--text-dark);
+    line-height: 1.6;
 }
 
 /* Sections */
@@ -225,6 +237,12 @@ body {
     border: 2px solid var(--border-color);
 }
 
+.course-description {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
 .drive-link {
     display: inline-block;
     margin-top: 1rem;
@@ -241,28 +259,43 @@ body {
     background-color: var(--primary-color);
 }
 
-/* Interests Grid */
-.interests-grid {
+/* Accounting Issues Grid */
+.issues-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
+    margin-top: 1.5rem;
 }
 
-.interest-item {
+.issue-item {
     padding: 1.5rem;
     background-color: var(--bg-light);
     border-radius: 0.5rem;
     border-left: 4px solid var(--secondary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.interest-item h3 {
+.issue-item:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.issue-item h3 {
     color: var(--primary-color);
-    margin-bottom: 0.75rem;
-    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.15rem;
 }
 
-.interest-item p {
+.issue-date {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 0.75rem;
+}
+
+.issue-item p:last-child {
     color: var(--text-dark);
+    line-height: 1.6;
 }
 
 /* Contact Info */
