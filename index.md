@@ -23,7 +23,6 @@ layout: default
             <div class="contact-info">
                 <p><strong>Email:</strong> <a href="mailto:hkim@csufresno.edu">hkim@csufresno.edu</a></p>
                 <p><strong>Office:</strong> PB240</p>
-                <p><strong>Department:</strong> Department of Accountancy, California State University, Fresno</p>
             </div>
             
             <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
