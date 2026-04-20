@@ -38,11 +38,6 @@ title: Teaching
                     </p>
                 </div>
             </div>
-            
-            <div class="office-hours-section">
-                <h3>Office Hours</h3>
-                <p>Schedule a meeting during office hours: <a href="https://calendar.google.com/calendar/appointments/schedules/YOUR-SCHEDULE-ID" target="_blank" class="office-hours-link">Book Appointment</a></p>
-            </div>
         </div>
     </div>
 </section>

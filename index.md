@@ -38,6 +38,11 @@ layout: default
                 <p><strong>Office:</strong> PB240</p>
                 <p><strong>Department:</strong> Department of Accountancy, California State University, Fresno</p>
             </div>
+            
+            <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                <h3 style="font-size: 1.125rem; font-weight: 600; color: var(--primary-color); margin-bottom: 1rem;">Office Hours</h3>
+                <p>Schedule a meeting during office hours: <a href="https://calendar.google.com/calendar/appointments/schedules/YOUR-SCHEDULE-ID" target="_blank" class="external-link">Book Appointment</a></p>
+            </div>
         </div>
     </div>
 </section>
