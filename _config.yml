@@ -1,0 +1,24 @@
+# Site settings
+title: Hyung Tae Kim
+email: hkim@csufresno.edu
+description: >-
+  Associate Professor in Accounting at California State University, Fresno.
+  Research interests include Financial Reporting, Audit & Assurance, and Corporate Governance.
+baseurl: ""
+url: "https://hyungtaekimacct.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /accounting-issues/:year/:month/:day/:title/
+
+# Collections
+collections:
+  courses:
+    output: true
+    permalink: /teaching/:path/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
