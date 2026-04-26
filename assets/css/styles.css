@@ -216,9 +216,27 @@ body {
 /* Research Links */
 .research-links {
     display: flex;
-    gap: 1.5rem;
-    margin-top: 1rem;
+    gap: 1rem;
+    margin-top: 1.5rem;
     flex-wrap: wrap;
+}
+
+.btn-profile {
+    display: inline-block;
+    padding: 0.6rem 1.25rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 4px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-profile:hover {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-bottom-color: var(--primary-color);
 }
 
 .external-link {

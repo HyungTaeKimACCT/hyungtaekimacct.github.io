@@ -18,8 +18,8 @@ title: Research
             <h3 style="margin-top: 2rem;">Publications</h3>
             <p>For a complete list of my publications, please visit:</p>
             <div class="research-links">
-                <a href="https://www.researchgate.net/profile/Hyung-Tae-Kim-2/research" target="_blank" class="external-link">ResearchGate Profile</a>
-                <a href="https://scholar.google.com/citations?user=G0lZEWEAAAAJ&hl=en" target="_blank" class="external-link">Google Scholar Profile</a>
+                <a href="https://www.researchgate.net/profile/Hyung-Tae-Kim-2/research" target="_blank" class="btn-profile">ResearchGate Profile</a>
+                <a href="https://scholar.google.com/citations?user=G0lZEWEAAAAJ&hl=en" target="_blank" class="btn-profile">Google Scholar Profile</a>
             </div>
         </div>
     </div>
