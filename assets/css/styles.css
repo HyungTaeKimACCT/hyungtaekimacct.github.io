@@ -6,16 +6,16 @@
 }
 
 :root {
-    --primary-color: #1a1a1a;
-    --secondary-color: #4a4a4a;
-    --accent-color: #2563eb;
-    --text-dark: #1a1a1a;
-    --text-medium: #4a4a4a;
-    --text-light: #6b7280;
-    --bg-white: #ffffff;
-    --bg-light: #fafafa;
-    --border-color: #e5e7eb;
-    --border-dark: #d1d5db;
+    --primary-color: #1a2a4a;
+    --secondary-color: #2d4a7a;
+    --accent-color: #c9a227;
+    --text-dark: #1e2a3a;
+    --text-medium: #4a5568;
+    --text-light: #718096;
+    --bg-white: #f8f7f4;
+    --bg-light: #edf0f5;
+    --border-color: #dde2ea;
+    --border-dark: #c5ccd7;
 }
 
 body {
@@ -34,8 +34,8 @@ body {
 
 /* Navigation */
 .navbar {
-    background-color: var(--bg-white);
-    border-bottom: 1px solid var(--border-color);
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -51,7 +51,7 @@ body {
 .nav-brand {
     font-size: 1.25rem;
     font-weight: 600;
-    color: var(--primary-color);
+    color: #ffffff;
     letter-spacing: -0.025em;
 }
 
@@ -63,7 +63,7 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: var(--text-medium);
+    color: #b8c9dc;
     font-weight: 400;
     font-size: 0.95rem;
     transition: color 0.2s ease;
@@ -71,7 +71,7 @@ body {
 }
 
 .nav-link:hover {
-    color: var(--primary-color);
+    color: var(--accent-color);
 }
 
 .nav-link::after {
@@ -81,7 +81,7 @@ body {
     left: 0;
     width: 0;
     height: 1px;
-    background-color: var(--primary-color);
+    background-color: var(--accent-color);
     transition: width 0.2s ease;
 }
 
@@ -164,6 +164,9 @@ body {
     margin-bottom: 2rem;
     font-weight: 600;
     letter-spacing: -0.025em;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--accent-color);
+    display: inline-block;
 }
 
 .content-card {
@@ -201,7 +204,7 @@ body {
     content: '•';
     position: absolute;
     left: 0;
-    color: var(--text-light);
+    color: var(--accent-color);
 }
 
 .content-card p {
@@ -384,12 +387,12 @@ body {
 
 /* Footer */
 .footer {
-    background-color: var(--bg-light);
-    color: var(--text-medium);
+    background-color: var(--primary-color);
+    color: #8aa0bc;
     padding: 2rem 0;
     text-align: center;
     font-size: 0.875rem;
-    border-top: 1px solid var(--border-color);
+    border-top: 2px solid var(--accent-color);
 }
 
 .footer p {
